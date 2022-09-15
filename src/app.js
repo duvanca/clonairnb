@@ -51,7 +51,7 @@ app.use(express.json());
 
 
 
-app.get("/places", places)
+app.get("/")
 //   try {
 //     const data = await Accommodations.create({
 //       id: "7e5fc196-8f45-46d2-bb2b-2f8b95340d50",
