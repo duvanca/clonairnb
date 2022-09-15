@@ -3,7 +3,7 @@ const { Sequelize } = require('sequelize');
 const dotenv = require('dotenv');
 
 // Create a connection to database
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: '../config.env' });
 // Create a connection to database
 const db = new Sequelize({
   dialect: 'postgres',
